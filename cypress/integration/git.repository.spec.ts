@@ -92,7 +92,7 @@ describe('Delete Git Repository', function () {
     const deleteRequest = {} as RestRequestValue;
     deleteRequest.method = MethodType.DELETE;
     deleteRequest.headers = header;
-    deleteRequest.endPoint = `repos/JashAravind/${repoPrivate.name}`;
+    deleteRequest.endPoint = `repos/StaunchAutomation/${repoPrivate.name}`;
     header.Authorization = `Bearer ${AccessType.WRITEACCESS}`;
     deleteRequest.failOnStatusCode = true;
     sumbitRestRequest(deleteRequest).then((response) => {
@@ -103,7 +103,7 @@ describe('Delete Git Repository', function () {
     const deleteRequest = {} as RestRequestValue;
     deleteRequest.method = MethodType.DELETE;
     deleteRequest.headers = header;
-    deleteRequest.endPoint = `repos/JashAravind/${repoPublic.name}`;
+    deleteRequest.endPoint = `repos/StaunchAutomation/${repoPublic.name}`;
     header.Authorization = `Bearer ${AccessType.WRITEACCESS}`;
     deleteRequest.failOnStatusCode = true;
     sumbitRestRequest(deleteRequest).then((response) => {
