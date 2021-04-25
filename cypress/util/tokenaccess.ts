@@ -1,0 +1,5 @@
+export enum AccessType {
+  WRITEACCESS = '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',
+  READACCESS = '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',
+  UNAUTHORIZEDACCESS = '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',
+}
